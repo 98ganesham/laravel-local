@@ -1,0 +1,69 @@
+user
+-id(int)
+-name(string)
+-email(string)
+-phone(string)
+-status(enum)
+ -active
+ -inactive
+-type(enum)
+ -member
+ -non-member
+
+
+2
+Gym
+ -id(int)
+ -gym_name(string)
+ -address(string)
+ -gym_class_name(string)
+ -gym_class_time(time)
+
+
+3
+Member_ship
+ - id(int)
+ - member_ship_name(string)
+ - member_ship_peroid(time)
+
+
+4
+Service
+ -id(int)
+ - service_status(enum)
+  - member
+  - non_member
+ - serive_price(double)
+
+
+
+ 5
+ Trainner
+  - id(int)
+  - name(string)
+  - email (string)
+  - phone (string)
+  - address (string)
+  - experience (time)
+
+
+6
+ Payment
+  - id (int)
+  - payment_type(enum)
+   - kpay
+   - cash
+   - credit
+ - payment_date(datetime)
+ - total_price (double)
+
+
+7
+FeedBack
+ -id
+ - user_details(enum)
+   - email
+   - phone
+ - rating(int)
+ - description_suggestion(text)
+
